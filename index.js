@@ -150,27 +150,3 @@ console.log("Total: $" + total);
 console.log("Average Change: " + average);
 console.log("Greatest increase: " + max[0] + " $" + max[1]);
 console.log("Greatest decrease: " + least[0] + " $" + least[1]);
-
-
-/* for (let index = 0; index < finances.length; index++){
-    console.log(finances[index][0])
-    total += finances[index][1]
-    change = finances[index][1] - net;
-    net = finances[index][1];
-    console.log("change: " + change);
-    console.log("net: " + net);
-    
-    netArray.push(change);
-}
-console.log(netArray);
-
-
-console.log("total: $" + total);
-
-
-for(let i = 0; i < netArray.length; i++){
-    netChangeSum += netArray[i]
-}
-console.log(netChangeSum - finances[0][1])
-
-console.log(netChangeSum / 85); */
